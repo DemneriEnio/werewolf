@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html align="middle">
+
+<head>
+    <title>Werewolf</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src=" main.js "></script>
+    <link rel="stylesheet " href="./style.css ">
+</head>
+
+<body>
+
+    <div id="start-field">
+        <div id="header">
+            <h1>WEREWOLF</h1>
+            <h3>A party game for people</h3>
+        </div>
+
+        <button id='play' style='margin-bottom: 50px;'>Play The Game</button><br><br><br>
+
+        <a href='howto.html' id='how'>How To Play</a>
+
+    </div>
+
+    <div id="game">
+        <h2>Before starting a game choose a moderator. He will not be count as a player.</h2>
+        <div id="field">
+
+            <button id="add" class="btn btn-success">Add a player</button>
+        </div>
+        <div id="input">
+            <input id="name" type="text" placeholder="Enter your name..."></input>
+            <button id="enter" class="btn-danger">Enter</button>
+            <div>
+                <p id="player_entered"></p>
+            </div>
+            <div id="game_players"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
